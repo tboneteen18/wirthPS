@@ -1,0 +1,85 @@
+<div class="container">
+  <div class="share_button">
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">SHARE
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <div id="share-buttons">
+
+            <!-- Facebook -->
+            <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+            </a>
+
+            <!-- Google+ -->
+            <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+            </a>
+
+            <!-- Pinterest -->
+            <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
+                <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
+            </a>
+
+            <!-- Twitter -->
+            <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+            </a>
+        </div>
+      </ul>
+    </div>
+  </div>
+  <div class="row cart_book">
+    <div class="container col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+      <img class="img-responsive" src="<%= asset_path( 'Dr-Wirth_Book.png' ) %>" alt="<%= asset_path( 'Dr-Wirth_Book.png' ) %>">
+    </div>
+    <div class="container col-lg-5 col-md-5 col-sm-5 col-xs-12 text-left book_information">
+      <div class="">
+        <h2>NAME OF BOOK</h2>
+        <hr>
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#home">Description</a></li>
+          <li><a data-toggle="tab" href="#menu1">Specs</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <h3>HOME</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div id="menu1" class="tab-pane fade">
+            <h3>Menu 1</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container book_description">
+  <div class="book_description_table">
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#description">Description</a></li>
+      <li><a data-toggle="tab" href="#notes">Notes</a></li>
+      <li><a data-toggle="tab" href="#reviews">Reviews</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="description" class="tab-pane fade in active">
+        <h3>HOME</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div id="notes" class="tab-pane fade">
+        <h3>Menu 1</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div id="reviews" class="tab-pane fade">
+        <h3>Menu 1</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+  </div>
+</div>

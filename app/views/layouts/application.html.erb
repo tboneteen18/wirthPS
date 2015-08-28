@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:400,800,700,600,900">
+  <title>WirthPS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<header>
+  <div id='home' class="container logo_header text-center">
+    <img src="<%= asset_path( 'Dr-Wirth_Logo.png' ) %>" alt="<%= asset_path( 'Dr-Wirth_Logo.png' ) %>">
+  </div>
+  <div class="container navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span>Menu</span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href>Shop</a></li>
+          <li><a href>Log in</a></li>
+          <li><a href>Checkout</a></li>
+          <!-- <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Close</a></li> -->
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+  <div class="container tags">
+    <img src="<%= asset_path( 'Dr-Wirth_Logo.png' ) %>" alt="<%= asset_path( 'Dr-Wirth_Logo.png' ) %>">
+    <a href="#">Home</a>
+    <a id='covers' href="#cover">Covers</a>
+    <a id='pricings' href="#pricing">Pricing</a>
+    <a id='meetings' href="#meet_authors">Meet the Author</a>
+    <a href="#">Testimonials</a>
+  </div>
+  <div class="mobile_menu">
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JavaScript</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<body>
+
+<%= yield %>
+
+</body>
+<footer>
+  <div class="container ft">
+    <span><a href="#">HOME</a></span>
+    <span><a href="#">CONTACT</a></span>
+    <span class = 'copyright'>Copyright <%= "\u00A9" %>2015 | Web Design by Venture Icon Media</span>
+  </div>
+</footer>
+</html>
