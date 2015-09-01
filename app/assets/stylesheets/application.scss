@@ -40,6 +40,17 @@
    opacity: 0.6;
  }
 
+ @media (max-width: 767px){
+   .copyright{
+     float: none;
+     display: block;
+     width: 300px;
+     height: 100%;
+     margin: 0 auto;
+     text-align: center;
+   }
+ }
+
  .navbar{
    border-radius: 0px;
    margin-bottom: 0px;
@@ -561,31 +572,39 @@
 
   .share_button{
     padding-top: 10px;
-    padding-right: 84px;
-    float: right;
   }
+
+ @media (min-width: 1200px){
+   .share_button{
+     padding-top: 10px;
+     padding-right: 98px;
+     float: right;
+   }
+ }
+
 
   .share_button .dropdown button{
       background-color: #1a1a1a;
       border-radius: 0px;
   }
 
-  @media (max-width: 1199px){
+  @media only screen and (max-width: 1199px) and (min-width: 992px){
     .share_button{
-      padding-right: 66px;
+      padding-right: 81px;
+      float: right;
     }
   }
 
-  @media (max-width: 991px){
+  @media only screen and (max-width: 991px) and (min-width: 768px){
     .share_button{
-      padding-right: 48px;
+      padding-right: 62px;
+      float: right;
     }
   }
 
-  @media (max-width: 767px){
+  @media only screen and (max-width: 767px){
     .share_button{
-      float: left;
-      padding-left: 80px;
+      text-align: center;
     }
   }
 
@@ -595,4 +614,17 @@
     border: 0;
     box-shadow: 0;
     display: inline;
+  }
+
+  @media (max-width: 767px){
+    .cart_book_image{
+      display: inline-block;
+    }
+  }
+  @media (max-width: 767px){
+    .dropdown-menu{
+      right: 20%;
+      left: 20%;
+      text-align: center;
+    }
   }
