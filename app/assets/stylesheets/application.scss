@@ -72,8 +72,24 @@
    text-align: right;
  }
 
+  #nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:20;
+  }
+
+  #sidebar.affix-top {
+      position: static;
+  }
+
+  #sidebar.affix {
+      position: fixed;
+      top: 80px;
+  }
+
  .navbar-inverse .navbar-nav > li {
-  border-right: solid 1px white;
+  // border-right: solid 1px white;
   //  margin: 15px 0;
   margin-top: 5px;
   margin-bottom: 5px;

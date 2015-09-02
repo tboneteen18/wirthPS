@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Product">
 <head>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,800,700,600,900">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:400,800,700,600,900">
   <title>WirthPS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow" />
@@ -44,22 +44,25 @@
   <div id='home' class="container logo_header text-center">
     <img src="<%= asset_path( 'Dr-Wirth_Logo.png' ) %>" alt="<%= asset_path( 'Dr-Wirth_Logo.png' ) %>">
   </div>
-  <div class="sticky_menu container navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span>Menu</span>
-        </button>
+  <div id = "nav">
+    <div class="container navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span>Menu</span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li>|</li>
+            <li><a href>Shop</a></li>
+            <!-- <li><a href>Log in</a></li> -->
+            <li><a href>Checkout</a></li>
+            <!-- <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Close</a></li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="/">Home</a></li>
-          <li><a href>Shop</a></li>
-          <!-- <li><a href>Log in</a></li> -->
-          <li><a href>Checkout</a></li>
-          <!-- <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Close</a></li> -->
-        </ul>
-      </div><!--/.nav-collapse -->
     </div>
   </div>
   <div class="container tags">
