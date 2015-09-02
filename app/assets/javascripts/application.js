@@ -15,7 +15,6 @@
 //= require_tree .
 //= require bootstrap-sprockets
 //= require turbolinks
-//= require menu
 
 // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
@@ -38,3 +37,31 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     $('header ,body, html').animate({scrollTop: pos});
 
 });
+
+var ready;
+ready = (function() {
+
+  $('#nav').affix({
+    offset: {
+      top: 40
+    }
+  });
+  $('#nav').on('affix.bs.affix', function () {
+    var navHeight = $('.navbar').outerHeight(true);
+
+    $('#nav + .container').css('margin-top', navHeight);
+	});
+  $('#nav').on('affix-top.bs.affix', function () {
+    $('#nav + .container').css('margin-top', 0);
+	});
+
+  $('#sidebar').affix({
+    offset: {
+      top: 17
+    }
+  });
+
+});
+
+$(document).ready(ready);
+$(document).on('page:load', ready);
