@@ -12,9 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
 //= require bootstrap-sprockets
+//= require turbolinks
 //= require menu
 
 // handle links with @href started with '#' only
@@ -36,5 +36,5 @@ $(document).on('click', 'a[href^="#"]', function(e) {
 
     // animated top scrolling
     $('header ,body, html').animate({scrollTop: pos});
-    
+
 });
