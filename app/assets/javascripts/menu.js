@@ -1,8 +1,9 @@
-$(document).ready(function() {
+var ready;
+ready = (function() {
 
   $('#nav').affix({
     offset: {
-      top: $('header').height()
+      top: 40
     }
   });
   $('#nav').on('affix.bs.affix', function () {
@@ -21,3 +22,6 @@ $(document).ready(function() {
   });
 
 });
+
+$(document).ready(ready);
+$(document).on('page:load', ready);

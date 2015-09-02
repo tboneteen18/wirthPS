@@ -36,4 +36,5 @@ $(document).on('click', 'a[href^="#"]', function(e) {
 
     // animated top scrolling
     $('header ,body, html').animate({scrollTop: pos});
+    
 });
