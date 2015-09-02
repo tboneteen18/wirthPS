@@ -55,6 +55,7 @@
    border-radius: 0px;
    margin-bottom: 0px;
    border: 0px;
+   min-height: 0px;
  }
 
  .navbar-inverse{
@@ -72,21 +73,16 @@
  }
 
  .navbar-inverse .navbar-nav > li {
-   border-right: solid 1px white;
-   margin: 15px 0;
-
+  border-right: solid 1px white;
+  //  margin: 15px 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
  }
 
  .navbar-inverse .navbar-nav > li:last-of-type {
    border: none;
 
  }
-
- // not going to use this
- // .navbar-inverse .navbar-nav > li:first-of-type {
- //   border: none;
- //   text-align: left;
- // }
 
  .navbar-inverse .navbar-toggle{
    height: 100%;
@@ -100,10 +96,6 @@
  .navbar-collapse{
    background-color: #D9A94D;
  }
-
- // .navbar.navbar-collapse{
- //   margin-top: 5%;
- // }
 
  .navbar-header{
    background-color: white;
@@ -161,19 +153,12 @@
    footer a{
      display: none;
    }
-  //  footer{
-  //    text-align: center;
-  //  }
  }
 
  @media (max-width: 767px){
    .cont_book img {
      width: inherit;
    }
- }
-
- .carousel-inner{
-   padding-bottom: 50px;
  }
 
  .carousel-inner>.item>img, .carousel-inner>.item>a>img {
