@@ -18,6 +18,7 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require menu
+//= require mobile-menu
 
 // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {

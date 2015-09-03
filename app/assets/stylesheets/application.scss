@@ -72,6 +72,13 @@
    text-align: right;
  }
 
+  #mobile-menu.affix {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index:20;
+  }
+
   #nav.affix {
     position: fixed;
     top: 0;
