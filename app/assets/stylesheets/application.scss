@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
 
  body{
    background-image: image-url('bodyback2.jpg');
@@ -22,14 +23,32 @@
  }
 
  footer a{
-   margin-right: 14px;
+  //  margin-right: 14px;
    color: white;
-   font-size: 14px;
-   font-weight: 700;
+  //  font-size: 14px;
+  //  font-weight: 700;
  }
+
+ footer a:hover{
+  //  margin-right: 14px;
+   color: white;
+  //  font-weight:bold;
+   text-decoration:underline;
+  //  font-size: 14px;
+  //  font-weight: 700;
+ }
+
  footer div{
    padding-top: 60px;
    padding-bottom: 50px;
+ }
+
+ .ft i{
+   font-size: 18px;
+ }
+
+ .text_gold{
+   color: #D9A94D;
  }
 
  .copyright{
@@ -113,7 +132,9 @@
  }
 
  .navbar-inverse .navbar-nav > li > a:hover{
-   color: blue;
+   color: white;
+  //  font-weight:bold;
+   text-decoration:underline;
  }
 
  .navbar-collapse{
@@ -202,7 +223,7 @@
     text-align: left;
     top: 10px;
     left: 10px;
-    bottom: auto;
+    bottom: 0px;
     max-width: 100%;
     height: auto;
   }
@@ -216,6 +237,25 @@
     padding: 6px;
     padding-left: 26px;
     padding-right: 26px;
+    bottom: 116px;
+    position: absolute;
+  }
+
+  .carousel-caption a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 1199px){
+    .carousel-caption a{
+      bottom: 35px;
+    }
+  }
+
+  @media (max-width: 991PX){
+    .carousel-caption a{
+      bottom: 10px;
+    }
   }
 
   .carousel-caption hr{
@@ -263,7 +303,9 @@
   .book{
     background-color: #efefef;
     color: #1a1a1a;
-    padding-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-left: 25px;
   }
 
   .book_explanation{
@@ -295,6 +337,11 @@
     text-decoration: none;
     position: absolute;
     right: 54px;
+  }
+
+  .book_explanation a:hover{
+    color: white;
+    text-decoration: underline;
   }
 
   .authors{
@@ -334,7 +381,8 @@
   }
 
   .authors a:hover{
-    color: blue;
+    color: white;
+    text-decoration: underline;
   }
 
   .authors h5{
@@ -354,10 +402,35 @@
     font-size: 25px;
     font-weight: 800;
     color: #d9a94b;
+    text-decoration: none;
+    display: inline-table;
+  }
+
+  #cover h2:before {
+    content: "";
+    width: 100%;
+    border-top: 0.1em solid white;
+    display: table-caption;
+    vertical-align: top;
+    position: relative;
+    top: -0.2em;
+    opacity: 0.5;
+  }
+
+  #cover h2:after {
+    content: "";
+    width: 100%;
+    border-bottom: 0.1em solid white;
+    display: table-caption;
+    vertical-align: baseline;
+    position: relative;
+    top: 1.3em;
+    opacity: 0.5;
   }
 
   #cover h1{
-    font-size: 60px;
+    width: 50%;
+    font-size: 51px;
     font-weight: 800;
   }
 
@@ -564,6 +637,7 @@
 
   .mobile_request_info_button{
       right: 86px;
+      padding-bottom: 44px;
   }
 
   @media (max-width: 767px){
