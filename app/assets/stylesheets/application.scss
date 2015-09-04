@@ -747,3 +747,13 @@
   .navbar-nav > li > .dropdown-menu {
     text-align: center;
   }
+
+  .shopping_button{
+    background-image: image-url('amazon-add.gif');
+    width: 160px;
+    height: 27px;
+    background-repeat: no-repeat;
+    background-color: white;
+    bottom: 10px;
+    position: absolute;
+  }

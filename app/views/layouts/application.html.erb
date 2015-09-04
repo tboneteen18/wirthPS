@@ -14,13 +14,11 @@
   <meta itemprop="image" content="http://wirthps.herokuapp.com/<%= asset_path( 'Dr-Wirth_Book.png' ) %>">
 
   <!-- Twitter Card data -->
-  <meta name="twitter:card" content="product">
-  <meta name="twitter:site" content="@publisher_handle">
   <meta name="twitter:title" content="Personalized Breast Care">
   <meta name="twitter:description" content="A thorough guide for breast health.">
   <meta name="twitter:creator" content="Garrett A. Wirth, Keyianoosh (Keyian) Z. Paydar, Karen T. Lane">
   <meta name="twitter:image" content="http://wirthps.herokuapp.com/<%= asset_path( 'Dr-Wirth_Book.png' ) %>">
-  <meta name="twitter:data1" content="$3">
+  <meta name="twitter:data1" content="$35.99">
 
 
   <!-- Open Graph data -->
@@ -30,7 +28,7 @@
   <meta property="og:image" content="http://wirthps.herokuapp.com/<%= asset_path( 'Dr-Wirth_Book.png' ) %>" />
   <meta property="og:description" content="A thorough guide for breast health." />
   <!-- <meta property="og:site_name" content="Site Name, i.e. Moz" /> -->
-  <meta property="og:price:amount" content="15.00" />
+  <meta property="og:price:amount" content="35.99" />
   <meta property="og:price:currency" content="USD" />
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -83,6 +81,8 @@
       <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
       <span class="caret"></span></button>
       <ul class="dropdown-menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/welcome/show">Purchase</a></li>
         <li><a href="http://www.wirthplasticsurgery.com/breast.html">Breast</a></li>
         <li><a href="http://www.wirthplasticsurgery.com/body.html">Body</a></li>
         <li><a href="http://www.wirthplasticsurgery.com/face.html">Face</a></li>
@@ -105,27 +105,17 @@
     <span id="share-buttons">
 
         <!-- Facebook -->
-        <a href="http://www.facebook.com/sharer.php?u=http://wirthps.herokuapp.com/" target="_blank">
+        <a href="https://www.facebook.com/PersonalizedBreastCare?fref=ts" target="_blank">
             <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
         </a>
 
-        <!-- Google+ -->
-        <a href="https://plus.google.com/share?url=http://wirthps.herokuapp.com/" target="_blank">
-            <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
-        </a>
-
-        <!-- LinkedIn -->
-        <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://wirthps.herokuapp.com/" target="_blank">
-            <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
-        </a>
-
         <!-- Pinterest -->
-        <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
+        <a href="https://www.pinterest.com/breastcareguide/" target="_blank">
             <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
         </a>
 
         <!-- Twitter -->
-        <a href="https://twitter.com/share?url=http://wirthps.herokuapp.com/" target="_blank">
+        <a href="https://twitter.com/breastcareguide " target="_blank">
             <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
         </a>
       </span>
