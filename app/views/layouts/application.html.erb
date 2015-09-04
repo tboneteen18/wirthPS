@@ -53,7 +53,13 @@
           <ul class="nav navbar-nav">
             <li><a href="/">Home</a></li>
             <li>|</li>
-            <li><a href>Procedures</a></li>
+            <li><a class="dropdown-toggle procedures_dropdown" type="button" data-toggle="dropdown">Procedures
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.wirthplasticsurgery.com/breast.html">Breast</a></li>
+              <li><a href="http://www.wirthplasticsurgery.com/body.html">Body</a></li>
+              <li><a href="http://www.wirthplasticsurgery.com/face.html">Face</a></li>
+            </ul></li>
             <li>|</li>
             <li><a href>Contact Us</a></li>
             <li>|</li>
@@ -68,7 +74,6 @@
   </div>
   <div class="container tags">
     <img src="<%= asset_path( 'Dr-Wirth_Logo.png' ) %>" alt="<%= asset_path( 'Dr-Wirth_Logo.png' ) %>">
-    <a id='covers' href="#cover">Covers</a>
     <a id='pricings' href="#pricing">Pricing</a>
     <a id='meetings' href="#meet_authors">Meet the Author</a>
     <a href="/welcome/show">Testimonials</a>
@@ -78,9 +83,9 @@
       <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
       <span class="caret"></span></button>
       <ul class="dropdown-menu">
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">JavaScript</a></li>
+        <li><a href="http://www.wirthplasticsurgery.com/breast.html">Breast</a></li>
+        <li><a href="http://www.wirthplasticsurgery.com/body.html">Body</a></li>
+        <li><a href="http://www.wirthplasticsurgery.com/face.html">Face</a></li>
       </ul>
     </div>
   </div>

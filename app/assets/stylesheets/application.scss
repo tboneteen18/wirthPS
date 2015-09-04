@@ -312,6 +312,24 @@
     border-left: solid 1px ;
   }
 
+  @media (min-width: 2000px){
+    .book_explanation{
+      margin-top: 100px;
+    }
+  }
+
+  @media (min-width: 992px){
+    .book_explanation{
+      margin-top: 24px;
+    }
+  }
+
+  @media (max-width: 767px){
+    .book_explanation{
+      border-left: 0px ;
+    }
+  }
+
   .book_explanation h1{
     font-size: 45px;
     font-weight: 900;
@@ -724,4 +742,8 @@
       left: 20%;
       text-align: center;
     }
+  }
+
+  .navbar-nav > li > .dropdown-menu {
+    text-align: center;
   }
