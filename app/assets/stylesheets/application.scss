@@ -193,11 +193,11 @@
    }
  }
 
- @media (max-width: 768px){
-   footer a{
-     display: none;
-   }
- }
+ // @media (max-width: 768px){
+ //   footer a{
+ //     display: none;
+ //   }
+ // }
 
  @media (max-width: 767px){
    .cont_book img {
@@ -340,6 +340,21 @@
   }
 
   .book_explanation a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+
+  .book_anchor{
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    border: 11px solid;
+    border-color: #d9a94b;
+    background-color: #d9a94b;
+    text-decoration: none;
+  }
+
+  .book_anchor:hover{
     color: white;
     text-decoration: underline;
   }
