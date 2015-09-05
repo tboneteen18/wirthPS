@@ -749,11 +749,14 @@
   }
 
   .shopping_button{
-    background-image: image-url('amazon-add.gif');
     width: 160px;
     height: 27px;
     background-repeat: no-repeat;
     background-color: white;
     bottom: 10px;
     position: absolute;
+  }
+
+  .book_information{
+    z-index:10;
   }

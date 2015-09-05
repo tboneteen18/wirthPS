@@ -4,10 +4,10 @@
       <img class="img-responsive cart_book_image" src="<%= asset_path( 'Dr-Wirth_Book.png' ) %>" alt="<%= asset_path( 'Dr-Wirth_Book.png' ) %>">
     </div>
     <div class="container col-lg-5 col-md-5 col-sm-5 col-xs-12 text-left book_information">
-      <div class="">
+      <div class="info_about_book">
         <h2>Personalized Breast Care</h2>
         <hr>
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-tabs ">
           <li class="active"><a data-toggle="tab" href="#Home">Description</a></li>
           <li><a data-toggle="tab" href="#menu1">Specs</a></li>
         </ul>
@@ -30,7 +30,9 @@
           </div>
         </div>
       </div>
-      <a class = "shopping_button" href="http://www.amazon.com/Personalized-Breast-Care-Cosmetic-Reconstruction/dp/1502398508" target="_blank"></a>
+      <div class = "shopping_button">
+        <a href="http://www.amazon.com/Personalized-Breast-Care-Cosmetic-Reconstruction/dp/1502398508" target="_blank"><img src="<%= asset_path( 'amazon-add.gif' ) %>" alt="" /></a>
+      </div>
     </div>
     <!-- <button class = "shopping_button" type="button"></button> -->
     <div class="share_button">
