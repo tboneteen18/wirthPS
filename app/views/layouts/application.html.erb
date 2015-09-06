@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/Product">
+<html itemscope itemtype="http://schema.org/Product" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
 <head>
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:400,800,700,600,900">
   <title>WirthPS</title>
@@ -64,6 +64,19 @@
             <li><a href>Shop</a></li>
             <li>|</li>
             <li><a href>Checkout</a></li>
+            <li><div class="cartInfo"><span class="simpleCart_quantity"></span> items</div></li>
+            <div id="cartPopover">
+    					<div id="triangle">&#x25B2;</div>
+    					<div class="simpleCart_items"></div>
+    					<div id="cartData" class="clearfix">
+    						<div class="left"><strong>Items: </strong><span class="simpleCart_quantity"></span></div>
+    						<div class="right"><strong>Total: </strong><span class="simpleCart_total"></span></div>
+					    </div>
+    					<div id="popoverButtons" class="clearfix">
+    						<a href="/cart/" class="hudbtn left">View</a>
+    						<a href="javascript:;" class="simpleCart_checkout hudbtn primary right">Checkout</a>
+    					</div>
+				  </div>
             <!-- <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Close</a></li> -->
           </ul>
         </div><!--/.nav-collapse -->

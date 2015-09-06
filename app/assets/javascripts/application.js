@@ -16,6 +16,7 @@
 //= require bootstrap/affix
 //= require bootstrap-sprockets
 //= require turbolinks
+//= require simplecart
 //= require menu
 //= require mobile-menu
 
@@ -40,3 +41,18 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     $('header ,body, html').animate({scrollTop: pos});
 
 });
+$(function() {
+  $('.cartInfo').click(function() {
+    $('#cartPopover').toggle('fast');
+  });
+});
+// $function () {
+//     $(".cartInfo").toggle(function(){
+//     $("#cartPopover").show();
+//     $(".cartInfo").addClass('open');
+//   }, function(){
+//     $("#cartPopover").hide();
+//     $(".cartInfo").removeClass('open');
+//   });
+//
+// }

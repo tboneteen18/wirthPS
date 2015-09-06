@@ -1,7 +1,11 @@
 <div class="container">
   <div class="row cart_book">
-    <div class="container col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
-      <img class="img-responsive cart_book_image" src="<%= asset_path( 'Dr-Wirth_Book.png' ) %>" alt="<%= asset_path( 'Dr-Wirth_Book.png' ) %>">
+    <div class="container col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center simpleCart_shelfItem">
+      <img class="img-responsive cart_book_image item_image" src="<%= asset_path( 'Dr-Wirth_Book.png' ) %>" alt="<%= asset_path( 'Dr-Wirth_Book.png' ) %>">
+      <h2 class="item_name"> Awesome T-shirt </h2>
+	    <input type="text" value="1" class="item_Quantity">
+	    <span class="item_price">$35.99</span>
+		<a class="item_add" href="javascript:;"> Add to Cart </a>
     </div>
     <div class="container col-lg-5 col-md-5 col-sm-5 col-xs-12 text-left book_information">
       <div class="info_about_book">
