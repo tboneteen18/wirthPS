@@ -15,7 +15,7 @@
 //= require_tree .
 //= require bootstrap/affix
 //= require bootstrap-sprockets
-//= require turbolinks
+
 //= require simplecart
 //= require menu
 //= require mobile-menu
