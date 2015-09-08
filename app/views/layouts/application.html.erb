@@ -47,7 +47,7 @@
             <span>Menu</span>
           </button>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse desktop_menu">
           <ul class="nav navbar-nav">
             <li><a href="/">Home</a></li>
             <li>|</li>
@@ -67,16 +67,17 @@
             <li><div class="cartInfo"><span class="simpleCart_quantity"></span> items</div></li>
             <div id="cartPopover">
     					<div id="triangle">&#x25B2;</div>
-    					<div class="simpleCart_items"></div>
+    					<!-- <div class="simpleCart_items"></div> -->
     					<div id="cartData" class="clearfix">
     						<div class="left"><strong>Items: </strong><span class="simpleCart_quantity"></span></div>
     						<div class="right"><strong>Total: </strong><span class="simpleCart_total"></span></div>
 					    </div>
     					<div id="popoverButtons" class="clearfix">
-    						<a href="/cart/" class="hudbtn left">View</a>
+                <a href="javascript:;" class="simpleCart_empty hudbtn left">empty</a>
+    						<!-- <a href="/cart/" class="hudbtn left">View</a> -->
     						<a href="javascript:;" class="simpleCart_checkout hudbtn primary right">Checkout</a>
     					</div>
-				  </div>
+				    </div>
             <!-- <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Close</a></li> -->
           </ul>
         </div><!--/.nav-collapse -->
@@ -91,6 +92,20 @@
   </div>
   <div id="mobile-menu"class="mobile_menu">
     <div class="dropdown">
+      <span><div class="cartInfo" id = "cartInfo"><span class="simpleCart_quantity"></span> items</div></span>
+      <div id="cartPopover">
+        <div id="triangle">&#x25B2;</div>
+        <!-- <div class="simpleCart_items"></div> -->
+        <div id="cartData" class="clearfix">
+          <div class="left"><strong>Items: </strong><span class="simpleCart_quantity"></span></div>
+          <div class="right"><strong>Total: </strong><span class="simpleCart_total"></span></div>
+        </div>
+        <div id="popoverButtons" class="clearfix">
+          <a href="javascript:;" class="simpleCart_empty hudbtn left">empty</a>
+          <!-- <a href="/cart/" class="hudbtn left">View</a> -->
+          <a href="javascript:;" class="simpleCart_checkout hudbtn primary right">Checkout</a>
+        </div>
+      </div>
       <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
       <span class="caret"></span></button>
       <ul class="dropdown-menu">

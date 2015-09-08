@@ -42,17 +42,13 @@ $(document).on('click', 'a[href^="#"]', function(e) {
 
 });
 $(function() {
-  $('.cartInfo').click(function() {
-    $('#cartPopover').toggle('fast');
+  $('.desktop_menu .cartInfo').click(function() {
+    $('.desktop_menu #cartPopover').toggle('fast');
   });
 });
-// $function () {
-//     $(".cartInfo").toggle(function(){
-//     $("#cartPopover").show();
-//     $(".cartInfo").addClass('open');
-//   }, function(){
-//     $("#cartPopover").hide();
-//     $(".cartInfo").removeClass('open');
-//   });
-//
-// }
+
+$(function() {
+  $('.mobile_menu .cartInfo').click(function() {
+    $('.mobile_menu #cartPopover').toggle('fast');
+  });
+});
