@@ -4,7 +4,7 @@
       <img class="img-responsive cart_book_image item_image" src="<%= asset_path( 'Dr-Wirth_Book.png' ) %>" alt="<%= asset_path( 'Dr-Wirth_Book.png' ) %>">
       <!-- <h2 class="item_name"> Awesome T-shirt </h2> -->
 	    <p type="text" value="1" class="item_Quantity"> </p>
-	    <span class="item_price">$35.99</span>
+
 		<!-- <a class="item_add" href="javascript:;"> Add to Cart </a> -->
     </div>
     <div class="container col-lg-5 col-md-5 col-sm-5 col-xs-12 text-left book_information">
@@ -13,7 +13,6 @@
         <hr>
         <ul class="nav nav-tabs ">
           <li class="active"><a data-toggle="tab" href="#Home">Description</a></li>
-          <li><a data-toggle="tab" href="#menu1">Specs</a></li>
         </ul>
         <div class="tab-content">
           <div id="Home" class="tab-pane fade-in active">
@@ -30,13 +29,12 @@
               With the combined expertise of the contributing authors, you’re in good hands.
             </p>
           </div>
-          <div id="menu1" class="tab-pane fade">
-          </div>
         </div>
       </div>
       <div class = "shopping_button">
-        <a class="item_add" href="javascript:;"><img src="<%= asset_path( 'amazon-add.gif' ) %>" alt="" /></a>
+        <a class="item_add" href="javascript:;"><img src="<%= asset_path( 'Dr.-Wirth_Add-to-cart.png' ) %>" alt="" /></a>
       </div>
+      <span class="item_price">$35.99</span>
     </div>
     <!-- <button class = "shopping_button" type="button"></button> -->
     <div class="share_button">
@@ -76,59 +74,57 @@
     </div>
   </div>
 </div>
-<div class="container book_description">
-  <div class="book_description_table">
-    <ul class="nav nav-tabs">
-      <li class="active"><a data-toggle="tab" href="#description">Description</a></li>
-      <li><a data-toggle="tab" href="#notes">Notes</a></li>
-      <li><a data-toggle="tab" href="#reviews">Reviews</a></li>
-    </ul>
-    <div class="tab-content">
-      <div id="description" class="tab-pane fade in active">
-        <h3>HOME</h3>
-        <p>
-          Personalized Breast Care: Guide to Cosmetic Surgery,
-          Breast Cancer and Reconstruction is a straightforward guide to breast health.
-          The editors, Dr. Garrett A. Wirth, Dr. Karen T. Lane, and Dr. Keyian Z.
-          Paydar found a balance between a complete medical textbook and a basic understanding
-          of breast care to create this easy- to-read and comprehensive guide.
-        </p>
-        <p>
-          The authors understand that not all areas of the book will apply to everyone.
-          The goal is to provide information for all concerned with breast health.
-          Read the chapters that are of most interest to you, and reference the rest as you wish.
-          The second chapter is full of medical lingo and can be used as a direct
-          reference rather than read straight through.
-        </p>
-        <p>
-          The aim of this guide is to help any individual navigate through the healthcare system
-          as they go through breast cancer and surgery. The amount of information available to you is overwhelming,
-          so this book is a condensed and comprehensive collection of everything you’d need to know.
-        </p>
-        <p>
-          Breast cancer is a frightening reality for many.
-          With chapters dedicated to the diagnosis progress, various therapies,
-          and post cancer treatment life, you’ll be better prepared to face the disease.
-          There is also a chapter dedicated to the education of family and friends in responding
-          to a loved one’s cancer diagnosis.
-        </p>
-        <p>
-          Plastic and cosmetic surgery procedures vary in intensity and necessity.
-          Find out everything you need to know about breast augmentation, breast reduction,
-          mastopexy, and breast reconstruction surgeries. From establishing expectations and recovery guidelines,
-          you can be better prepared for a consultation and the resulting procedure.
-        </p>
-        <p>
-          If you are simply curious about any aspect of breast health including anatomy,
-          evaluation, and breast cancer therapies, this is your guide.
-          Personalized Breast Care is here to provide you with the information and resources
-          you need to be well-informed in all aspects of breast care.
-        </p>
-      </div>
-      <div id="notes" class="tab-pane fade">
-      </div>
-      <div id="reviews" class="tab-pane fade">
-      </div>
+<div class="container book_description_table">
+  <ul class="nav nav-tabs">
+    <li><a data-toggle="tab" href="#description">Description</a></li>
+    <li><a data-toggle="tab" href="#reviews">Reviews</a></li>
+    <li><a data-toggle="tab" href="#before_after">Before & After</a></li>
+  </ul>
+  <div class="tab-content">
+    <div id="description" class="tab-pane fade in">
+      <h3>HOME</h3>
+      <p>
+        Personalized Breast Care: Guide to Cosmetic Surgery,
+        Breast Cancer and Reconstruction is a straightforward guide to breast health.
+        The editors, Dr. Garrett A. Wirth, Dr. Karen T. Lane, and Dr. Keyian Z.
+        Paydar found a balance between a complete medical textbook and a basic understanding
+        of breast care to create this easy- to-read and comprehensive guide.
+      </p>
+      <p>
+        The authors understand that not all areas of the book will apply to everyone.
+        The goal is to provide information for all concerned with breast health.
+        Read the chapters that are of most interest to you, and reference the rest as you wish.
+        The second chapter is full of medical lingo and can be used as a direct
+        reference rather than read straight through.
+      </p>
+      <p>
+        The aim of this guide is to help any individual navigate through the healthcare system
+        as they go through breast cancer and surgery. The amount of information available to you is overwhelming,
+        so this book is a condensed and comprehensive collection of everything you’d need to know.
+      </p>
+      <p>
+        Breast cancer is a frightening reality for many.
+        With chapters dedicated to the diagnosis progress, various therapies,
+        and post cancer treatment life, you’ll be better prepared to face the disease.
+        There is also a chapter dedicated to the education of family and friends in responding
+        to a loved one’s cancer diagnosis.
+      </p>
+      <p>
+        Plastic and cosmetic surgery procedures vary in intensity and necessity.
+        Find out everything you need to know about breast augmentation, breast reduction,
+        mastopexy, and breast reconstruction surgeries. From establishing expectations and recovery guidelines,
+        you can be better prepared for a consultation and the resulting procedure.
+      </p>
+      <p>
+        If you are simply curious about any aspect of breast health including anatomy,
+        evaluation, and breast cancer therapies, this is your guide.
+        Personalized Breast Care is here to provide you with the information and resources
+        you need to be well-informed in all aspects of breast care.
+      </p>
+    </div>
+    <div id="reviews" class="tab-pane fade">
+    </div>
+    <div id="before_after" class="tab-pane fade">
     </div>
   </div>
 </div>

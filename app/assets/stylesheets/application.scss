@@ -281,30 +281,21 @@
     background-color: #d9a94b;
   }
 
-  .book_carousel{
-    top: 150px;
-    left: 668px;
-    position: absolute;
-  }
-
-  @media (max-width: 1199px){
-    .book_carousel{
-      left: 510px;
-    }
-  }
-
-  @media (max-width: 991px){
-    .book_carousel{
-      top: 100px;
-      left: 450px;
-    }
-  }
-
   .book{
     background-color: #efefef;
     color: #1a1a1a;
     padding-top: 40px;
     padding-bottom: 100px;
+    padding-left: 25px;
+  }
+
+  .front_page_review{
+    background-color: black;
+    height: 140px;
+  }
+
+  .wirth_social_icons{
+    height: 140px;
     padding-left: 25px;
   }
 
@@ -431,6 +422,10 @@
     }
   }
 
+  #cover{
+    background-color: #1a1a1a;
+  }
+
   #cover h2{
     font-size: 25px;
     font-weight: 800;
@@ -462,9 +457,19 @@
   }
 
   #cover h1{
-    width: 50%;
-    font-size: 51px;
+    font-size: 38px;
     font-weight: 800;
+    margin-top: 77px;
+  }
+
+  .cover_shopping_link img{
+    margin-top: 30px;
+  }
+
+  .cover_book_image{
+    max-width: 60%;
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
 
   .book_image{
@@ -513,7 +518,7 @@
   }
 
   .tags{
-    background-color: #1A1A1A;
+    background-color: black;
   }
 
   .tags img{
@@ -541,17 +546,10 @@
     padding-top: 50px;
   }
 
-  // @media (min-width: 768px){
-  //   .cart_book{
-  //     padding-bottom: 70px;
-  //   }
-  // }
-
   .book_information{
     border: 1px solid;
     margin-top: 20px;
     margin-right: 50px;
-    padding-bottom: 180px;
     z-index: 1;
   }
   @media (max-width: 767px){
@@ -574,10 +572,31 @@
     padding-top: 50px;
   }
 
+  .book_description_table .nav-tabs{
+    background-color: #ededed;
+    border-bottom: none;
+  }
+
+  .book_description_table .tab-content{
+    color: #1a1a1a;
+  }
+
+  .book_description_table .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #ededed;
+    color: black;
+    border: none;
+}
+
+  .book_description_table .nav-tabs a{
+    color: #696969;
+  }
+
+  .book_description_table .nav-tabs a:hover{
+    text-decoration: none;
+  }
+
   .book_description_table{
-    margin-left: 10%;
-    margin-right: 15%;
-    background-color: white;
+    background-color: #ededed;
   }
     @media (max-width: 767px){
       .book_description_table{
@@ -776,6 +795,14 @@
 
   .dont_display{
     display: none;
+  }
+
+  .front_page_review .carousel-inner{
+    background-color: black;
+  }
+
+  .stars img{
+    width: 70px;
   }
 
   /********************************
