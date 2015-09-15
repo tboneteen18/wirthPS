@@ -125,6 +125,15 @@
 
 <%= yield %>
 
+  <script>
+    $(document).ready(function() {
+
+      // Initialize the plugin
+      $('#my_popup').popup({
+        opacity: 0.9,
+        color: '#1a1a1a'});
+    });
+  </script>
 </body>
 <footer>
   <div class="container ft">

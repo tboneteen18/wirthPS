@@ -19,6 +19,7 @@
 //= require simplecart
 //= require menu
 //= require mobile-menu
+//= require popupoverlay
 
 // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
