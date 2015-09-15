@@ -853,6 +853,18 @@
     border-color: white;
   }
 
+  @media (max-width: 991px){
+    #cover .for_desktop{
+      display: none;
+    }
+  }
+
+  @media (min-width: 992px){
+    #cover .for_mobile{
+      display: none;
+    }
+  }
+
   /********************************
   	NAVIGATION
   ********************************/
