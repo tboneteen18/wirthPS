@@ -52,12 +52,3 @@ $(function() {
     $('.mobile_menu #cartPopover').toggle('fast');
   });
 });
-
-function open() {
-    document.getElementById("overlay").style.visibility = "visible";
-    document.getElementById("overlay").style.opacity = 1;
-}
-function close() {
-    document.getElementById("overlay").style.opacity = 1;
-    document.getElementById("overlay").style.visibility = "visible";
-}

@@ -203,11 +203,6 @@
  //   }
  // }
 
- @media (max-width: 767px){
-   .cont_book img {
-     width: inherit;
-   }
- }
 
  .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     display: block;
@@ -477,7 +472,7 @@
   }
 
   .book_image{
-    width: 496px;
+    width: 210px;
     margin-bottom: 68px;
     margin-top: 20px;
     margin-left: 65px;
@@ -488,7 +483,7 @@
 
   @media (max-width: 1199px){
     .book_image{
-      width: 496px;
+      width: 210px;
       margin-bottom: 68px;
       margin-top: 20px;
       margin-left: 80px;
@@ -499,7 +494,7 @@
   }
   @media (min-width: 2000px){
     .book_image{
-      width: 496px;
+      width: 210px;
       margin-bottom: 68px;
       margin-top: 20px;
       margin-left: 65px;
@@ -511,7 +506,7 @@
 
   @media (max-width: 991px){
     .book_image{
-      width: 496px;
+      width: 210px;
       margin-bottom: 68px;
       margin-top: 20px;
       margin-left: 0px;
@@ -820,19 +815,17 @@
     }
   }
 
-  div.overlay {
-    width: 650px;
-    height: 400px;
-    position: fixed;
-    left: calc(50% - 340px);
-    top: calc(50% - 230px);
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-    z-index: 999;
-    -webkit-transition: opacity 1.5s;
-    transition: opacity 1.5s;
-    opacity: 0;
-}
+  @media only screen and (max-width: 991px) and (min-width: 768px){
+    .wirth_social_icons{
+      padding-left: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) and (min-width: 768px){
+    .wirth_review_icon{
+      width: 62%;
+    }
+  }
 
 
   /********************************
